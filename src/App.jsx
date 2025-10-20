@@ -1,6 +1,7 @@
 import './index.css'
 import React from 'react'
-import Navbar from './components/NavBar'
+import Navbar from './components/Navbar'
+import ItemListContainer from './components/ItemListContainer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       width: '100%'
     }}>
       <Navbar />
+      <ItemListContainer greeting="Bienvenidos/as a Tierra Mailott, tu tienda natural" />
     </div>
   );
 }

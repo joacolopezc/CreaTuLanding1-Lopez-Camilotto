@@ -1,7 +1,7 @@
 import React from 'react'
 import CartWidget from './CartWidget';
 
-export default function NavBar() {
+export default function Navbar() {
     return (
         <nav style={{ 
             backgroundColor: 'brown',
